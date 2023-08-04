@@ -2,6 +2,7 @@ import Application from '@ember/application';
 import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from 'frontend-sparql-studio/config/environment';
+import 'frontend-sparql-studio/app.css';
 
 export default class App extends Application {
   modulePrefix = config.modulePrefix;
